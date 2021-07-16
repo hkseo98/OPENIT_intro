@@ -5,7 +5,6 @@ import 'package:openitintro/src/pages/footer.dart';
 import 'package:openitintro/src/pages/inquire.dart';
 import 'package:openitintro/src/pages/service.dart';
 import 'package:openitintro/src/pages/team.dart';
-import 'package:openitintro/src/widget/custom_text.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 
 // ignore: must_be_immutable

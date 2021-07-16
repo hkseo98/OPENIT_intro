@@ -55,6 +55,7 @@ class _AboutPageState extends State<AboutPage> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
+    var _width = MediaQuery.of(context).size.width;
     return Stack(
       children: [
         Container(
@@ -78,8 +79,8 @@ class _AboutPageState extends State<AboutPage> with TickerProviderStateMixin {
           ),
         ),
         Positioned(
-            top: 200,
-            left: 150,
+            top: _width / 5 > 200 ? 200 : _width / 5,
+            left: _width / 20 > 100 ? 100 : _width / 20,
             child: SlideTransition(
                 position: _animation,
                 child: Container(
