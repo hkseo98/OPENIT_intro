@@ -3,8 +3,6 @@ import 'package:openitintro/src/widget/SideMenu.dart';
 import 'package:openitintro/src/widget/appbar.dart';
 import 'package:openitintro/src/widget/body.dart';
 
-import 'help/responsive_widget.dart';
-
 // ignore: must_be_immutable
 class Layout extends StatelessWidget {
   Layout({Key? key}) : super(key: key);
